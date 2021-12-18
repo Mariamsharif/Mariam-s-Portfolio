@@ -6,15 +6,16 @@
 /*background colour of the body of the website*/
 
 body {
-    background-color: #10adeb;
+    background-color: whitesmoke;
 }
 /*the main style of the header body*/
 
 .header {
     padding: 21px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9c080800;
-    color: #ffffff;
+    font-family: 'lucida Sans Uicode', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgrey;
+    color: black;
+    margin-bottom: 80px;
 }
 
 .header h1 {
@@ -43,11 +44,46 @@ body {
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: black;
+    
 }
 
 p {
     font-size: 16px;
 }
-  
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.left {
+    float: left;
+    width: 150px;
+    height: 90px;
+    background-color: red;
+    padding-bottom: 100%;
+    padding-left: 20px;
+    }
+    
+   .left a {
+      
+     line-height:6.3;
+     font-size: 28px;
+     font-weight: bold;
+      
+    }
+
+.about-me {
+    margin-top: 41px ;
+
+}
+img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*they make content float right*/
+.float-right {
+    float: right;
+    margin-right: 25px;
+}
