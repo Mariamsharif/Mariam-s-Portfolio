@@ -49,7 +49,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 .content {
     width: 75%;
@@ -62,13 +62,13 @@ p {
     height: 90px;
     background-color: whitesmoke;
     padding-bottom: 100%;
-    
+    border-right: solid 3px;
     padding-left: 20px;
     }
     
    .left a {
       
-     line-height:8.5;
+     line-height:10;
      font-size: 28px;
      font-weight: bold;
       
@@ -94,7 +94,10 @@ img{
     width: 50%;
     padding: 20px;
     color:white;
-    margin-top: 50px 
+  }
+
+  .column:hover{
+      opacity: 0.3;
   }
   
   .row:after {
@@ -114,4 +117,15 @@ img{
     .column {
       width: 100%;
     }
+  }
+  .contact {
+      margin-top: 140px;
+
+
+  }
+  .contact a{
+     font-size:  20px;
+     padding-left: 25px;
+     text-decoration: underline;
+
   }
